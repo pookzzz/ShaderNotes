@@ -7,11 +7,12 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: USB_USB_simple_color
+  m_Name: USB_simple_color
   m_Shader: {fileID: 4800000, guid: d4f9c32a0084a48fab625e6895746633, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords: []
+  m_ValidKeywords:
+  - _OPTIONS_BLUE
   m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -28,7 +29,14 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Ints: []
-    m_Floats: []
+    m_Floats:
+    - _Brightness: 0.178
+    - _Enable: 0
+    - _Face: 1
+    - _Options: 2
+    - _Samples: 109
+    - _Specularity: 0.154
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _SpecularColor: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []

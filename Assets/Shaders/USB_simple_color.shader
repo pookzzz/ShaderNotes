@@ -14,7 +14,7 @@ Shader "USB/USB_simple_color"
 
         [Space(20)]
         [Header(Other Properties)]
-        [Toggle] _Enable ("Turn On", FLoat) = 0
+        // [Toggle] _Enable ("Turn On", FLoat) = 0
         [KeywordEnum(Off, Red, Blue)] _Options ("Options?", Float) = 0
         [Enum(Off, 0, Front, 1, Back, 2)]_Face ("Culling", Float) = 0
         [IntRange] _Samples("Samples", Range(0, 255))=100
